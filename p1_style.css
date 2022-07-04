@@ -1,5 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0%;
 }
 
 h1{
@@ -8,4 +9,41 @@ h1{
 
 .komola{
     color: orange;
+}
+
+#text{
+    width: 68%;
+    padding-left: 5%;
+}
+
+#image{
+    padding-left: 5%;
+}
+#image img{
+    width: 100%;
+}
+
+section{
+    display: flex;
+    padding-bottom: 60px;
+}
+
+.btn{
+    text-decoration: none;
+    padding: 10px 40px;
+    background-image: linear-gradient(orange, tomato);
+    font-weight: 700;
+    color: white;
+    border-radius: 5px;
+}
+
+.top_banner{
+    background-image: url(/images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.dream{
+    background-image: url(/images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
